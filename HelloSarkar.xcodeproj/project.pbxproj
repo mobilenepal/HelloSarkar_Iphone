@@ -1,0 +1,478 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0174971E1480C993008C1A94 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0174971D1480C993008C1A94 /* UIKit.framework */; };
+		017497201480C993008C1A94 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0174971F1480C993008C1A94 /* Foundation.framework */; };
+		017497221480C993008C1A94 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 017497211480C993008C1A94 /* CoreGraphics.framework */; };
+		017497241480C993008C1A94 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 017497231480C993008C1A94 /* CoreData.framework */; };
+		0174972A1480C993008C1A94 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 017497281480C993008C1A94 /* InfoPlist.strings */; };
+		0174972C1480C993008C1A94 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0174972B1480C993008C1A94 /* main.m */; };
+		017497301480C993008C1A94 /* HelloSarkarAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0174972F1480C993008C1A94 /* HelloSarkarAppDelegate.m */; };
+		017497331480C993008C1A94 /* HelloSarkar.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 017497311480C993008C1A94 /* HelloSarkar.xcdatamodeld */; };
+		017497371480C993008C1A94 /* HelloSarkarAppDelegate_iPhone.m in Sources */ = {isa = PBXBuildFile; fileRef = 017497361480C993008C1A94 /* HelloSarkarAppDelegate_iPhone.m */; };
+		0174973A1480C993008C1A94 /* MainWindow_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 017497381480C993008C1A94 /* MainWindow_iPhone.xib */; };
+		0174973E1480C993008C1A94 /* HelloSarkarAppDelegate_iPad.m in Sources */ = {isa = PBXBuildFile; fileRef = 0174973D1480C993008C1A94 /* HelloSarkarAppDelegate_iPad.m */; };
+		017497411480C993008C1A94 /* MainWindow_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0174973F1480C993008C1A94 /* MainWindow_iPad.xib */; };
+		0174975B1480CE20008C1A94 /* ComplainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 017497591480CE20008C1A94 /* ComplainViewController.m */; };
+		0174975C1480CE20008C1A94 /* ComplainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0174975A1480CE20008C1A94 /* ComplainViewController.xib */; };
+		017497601480D486008C1A94 /* ComplaintBoxViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0174975E1480D486008C1A94 /* ComplaintBoxViewController.m */; };
+		017497611480D486008C1A94 /* ComplaintBoxViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0174975F1480D486008C1A94 /* ComplaintBoxViewController.xib */; };
+		0174976D1480F22E008C1A94 /* XMLReader.m in Sources */ = {isa = PBXBuildFile; fileRef = 0174976C1480F22E008C1A94 /* XMLReader.m */; };
+		0174977814811DD3008C1A94 /* DistrictViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0174977614811DD3008C1A94 /* DistrictViewController.m */; };
+		0174977914811DD3008C1A94 /* DistrictViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0174977714811DD3008C1A94 /* DistrictViewController.xib */; };
+		0174977D14811DF2008C1A94 /* ComplainTypeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0174977B14811DF2008C1A94 /* ComplainTypeViewController.m */; };
+		0174977E14811DF2008C1A94 /* ComplainTypeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0174977C14811DF2008C1A94 /* ComplainTypeViewController.xib */; };
+		01749781148126ED008C1A94 /* SharedStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 01749780148126ED008C1A94 /* SharedStore.m */; };
+		01D7F3EE1481C976008B3B2D /* background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 01D7F3ED1481C976008B3B2D /* background.jpg */; };
+		46396A8814876A4900413F05 /* EditFieldCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 46396A8614876A4900413F05 /* EditFieldCell.m */; };
+		46396A8914876A4900413F05 /* EditFieldCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 46396A8714876A4900413F05 /* EditFieldCell.xib */; };
+		464CE0E914888BDD00319974 /* Complain.m in Sources */ = {isa = PBXBuildFile; fileRef = 464CE0E814888BDD00319974 /* Complain.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		017497191480C993008C1A94 /* HelloSarkar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloSarkar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0174971D1480C993008C1A94 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		0174971F1480C993008C1A94 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		017497211480C993008C1A94 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		017497231480C993008C1A94 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		017497271480C993008C1A94 /* HelloSarkar-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HelloSarkar-Info.plist"; sourceTree = "<group>"; };
+		017497291480C993008C1A94 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0174972B1480C993008C1A94 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0174972D1480C993008C1A94 /* HelloSarkar-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HelloSarkar-Prefix.pch"; sourceTree = "<group>"; };
+		0174972E1480C993008C1A94 /* HelloSarkarAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HelloSarkarAppDelegate.h; sourceTree = "<group>"; };
+		0174972F1480C993008C1A94 /* HelloSarkarAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HelloSarkarAppDelegate.m; sourceTree = "<group>"; };
+		017497321480C993008C1A94 /* HelloSarkar.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = HelloSarkar.xcdatamodel; sourceTree = "<group>"; };
+		017497351480C993008C1A94 /* HelloSarkarAppDelegate_iPhone.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = HelloSarkarAppDelegate_iPhone.h; path = iPhone/HelloSarkarAppDelegate_iPhone.h; sourceTree = "<group>"; };
+		017497361480C993008C1A94 /* HelloSarkarAppDelegate_iPhone.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = HelloSarkarAppDelegate_iPhone.m; path = iPhone/HelloSarkarAppDelegate_iPhone.m; sourceTree = "<group>"; };
+		017497391480C993008C1A94 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = iPhone/en.lproj/MainWindow_iPhone.xib; sourceTree = "<group>"; };
+		0174973C1480C993008C1A94 /* HelloSarkarAppDelegate_iPad.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = HelloSarkarAppDelegate_iPad.h; path = iPad/HelloSarkarAppDelegate_iPad.h; sourceTree = "<group>"; };
+		0174973D1480C993008C1A94 /* HelloSarkarAppDelegate_iPad.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = HelloSarkarAppDelegate_iPad.m; path = iPad/HelloSarkarAppDelegate_iPad.m; sourceTree = "<group>"; };
+		017497401480C993008C1A94 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = iPad/en.lproj/MainWindow_iPad.xib; sourceTree = "<group>"; };
+		017497581480CE20008C1A94 /* ComplainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ComplainViewController.h; sourceTree = "<group>"; };
+		017497591480CE20008C1A94 /* ComplainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ComplainViewController.m; sourceTree = "<group>"; };
+		0174975A1480CE20008C1A94 /* ComplainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ComplainViewController.xib; sourceTree = "<group>"; };
+		0174975D1480D486008C1A94 /* ComplaintBoxViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ComplaintBoxViewController.h; sourceTree = "<group>"; };
+		0174975E1480D486008C1A94 /* ComplaintBoxViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ComplaintBoxViewController.m; sourceTree = "<group>"; };
+		0174975F1480D486008C1A94 /* ComplaintBoxViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ComplaintBoxViewController.xib; sourceTree = "<group>"; };
+		0174976B1480F22E008C1A94 /* XMLReader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMLReader.h; sourceTree = "<group>"; };
+		0174976C1480F22E008C1A94 /* XMLReader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMLReader.m; sourceTree = "<group>"; };
+		0174977514811DD3008C1A94 /* DistrictViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DistrictViewController.h; sourceTree = "<group>"; };
+		0174977614811DD3008C1A94 /* DistrictViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DistrictViewController.m; sourceTree = "<group>"; };
+		0174977714811DD3008C1A94 /* DistrictViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DistrictViewController.xib; sourceTree = "<group>"; };
+		0174977A14811DF1008C1A94 /* ComplainTypeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ComplainTypeViewController.h; sourceTree = "<group>"; };
+		0174977B14811DF2008C1A94 /* ComplainTypeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ComplainTypeViewController.m; sourceTree = "<group>"; };
+		0174977C14811DF2008C1A94 /* ComplainTypeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ComplainTypeViewController.xib; sourceTree = "<group>"; };
+		0174977F148126ED008C1A94 /* SharedStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SharedStore.h; sourceTree = "<group>"; };
+		01749780148126ED008C1A94 /* SharedStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SharedStore.m; sourceTree = "<group>"; };
+		01D7F3ED1481C976008B3B2D /* background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = background.jpg; sourceTree = "<group>"; };
+		46396A8514876A4900413F05 /* EditFieldCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EditFieldCell.h; sourceTree = "<group>"; };
+		46396A8614876A4900413F05 /* EditFieldCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EditFieldCell.m; sourceTree = "<group>"; };
+		46396A8714876A4900413F05 /* EditFieldCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EditFieldCell.xib; sourceTree = "<group>"; };
+		464CE0E714888BDD00319974 /* Complain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Complain.h; sourceTree = "<group>"; };
+		464CE0E814888BDD00319974 /* Complain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Complain.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		017497161480C993008C1A94 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0174971E1480C993008C1A94 /* UIKit.framework in Frameworks */,
+				017497201480C993008C1A94 /* Foundation.framework in Frameworks */,
+				017497221480C993008C1A94 /* CoreGraphics.framework in Frameworks */,
+				017497241480C993008C1A94 /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0174970E1480C993008C1A94 = {
+			isa = PBXGroup;
+			children = (
+				017497251480C993008C1A94 /* HelloSarkar */,
+				0174971C1480C993008C1A94 /* Frameworks */,
+				0174971A1480C993008C1A94 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0174971A1480C993008C1A94 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				017497191480C993008C1A94 /* HelloSarkar.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0174971C1480C993008C1A94 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0174971D1480C993008C1A94 /* UIKit.framework */,
+				0174971F1480C993008C1A94 /* Foundation.framework */,
+				017497211480C993008C1A94 /* CoreGraphics.framework */,
+				017497231480C993008C1A94 /* CoreData.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		017497251480C993008C1A94 /* HelloSarkar */ = {
+			isa = PBXGroup;
+			children = (
+				017497471480C99D008C1A94 /* Shared */,
+				017497311480C993008C1A94 /* HelloSarkar.xcdatamodeld */,
+				464CE0E714888BDD00319974 /* Complain.h */,
+				464CE0E814888BDD00319974 /* Complain.m */,
+				017497341480C993008C1A94 /* iPhone */,
+				0174973B1480C993008C1A94 /* iPad */,
+				017497261480C993008C1A94 /* Supporting Files */,
+			);
+			path = HelloSarkar;
+			sourceTree = "<group>";
+		};
+		017497261480C993008C1A94 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				017497271480C993008C1A94 /* HelloSarkar-Info.plist */,
+				017497281480C993008C1A94 /* InfoPlist.strings */,
+				0174972B1480C993008C1A94 /* main.m */,
+				0174972D1480C993008C1A94 /* HelloSarkar-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		017497341480C993008C1A94 /* iPhone */ = {
+			isa = PBXGroup;
+			children = (
+				017497351480C993008C1A94 /* HelloSarkarAppDelegate_iPhone.h */,
+				017497361480C993008C1A94 /* HelloSarkarAppDelegate_iPhone.m */,
+				017497381480C993008C1A94 /* MainWindow_iPhone.xib */,
+			);
+			name = iPhone;
+			sourceTree = "<group>";
+		};
+		0174973B1480C993008C1A94 /* iPad */ = {
+			isa = PBXGroup;
+			children = (
+				0174973C1480C993008C1A94 /* HelloSarkarAppDelegate_iPad.h */,
+				0174973D1480C993008C1A94 /* HelloSarkarAppDelegate_iPad.m */,
+				0174973F1480C993008C1A94 /* MainWindow_iPad.xib */,
+			);
+			name = iPad;
+			sourceTree = "<group>";
+		};
+		017497471480C99D008C1A94 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				017497481480C9B3008C1A94 /* Classses */,
+				0174974D1480CC5B008C1A94 /* Xibs */,
+				0174974C1480CC41008C1A94 /* Resources */,
+			);
+			name = Shared;
+			sourceTree = "<group>";
+		};
+		017497481480C9B3008C1A94 /* Classses */ = {
+			isa = PBXGroup;
+			children = (
+				0174974B1480CC32008C1A94 /* AppDelegate */,
+				0174974A1480CC0B008C1A94 /* ViewControllers */,
+				017497491480CBFF008C1A94 /* Model */,
+			);
+			name = Classses;
+			sourceTree = "<group>";
+		};
+		017497491480CBFF008C1A94 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				0174977F148126ED008C1A94 /* SharedStore.h */,
+				01749780148126ED008C1A94 /* SharedStore.m */,
+				0174976B1480F22E008C1A94 /* XMLReader.h */,
+				0174976C1480F22E008C1A94 /* XMLReader.m */,
+				46396A8514876A4900413F05 /* EditFieldCell.h */,
+				46396A8614876A4900413F05 /* EditFieldCell.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		0174974A1480CC0B008C1A94 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				017497571480CD51008C1A94 /* Complain */,
+				017497561480CD4C008C1A94 /* MyComplains */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		0174974B1480CC32008C1A94 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				0174972E1480C993008C1A94 /* HelloSarkarAppDelegate.h */,
+				0174972F1480C993008C1A94 /* HelloSarkarAppDelegate.m */,
+			);
+			name = AppDelegate;
+			sourceTree = "<group>";
+		};
+		0174974C1480CC41008C1A94 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				01D7F3ED1481C976008B3B2D /* background.jpg */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		0174974D1480CC5B008C1A94 /* Xibs */ = {
+			isa = PBXGroup;
+			children = (
+				0174975A1480CE20008C1A94 /* ComplainViewController.xib */,
+				46396A8714876A4900413F05 /* EditFieldCell.xib */,
+				0174975F1480D486008C1A94 /* ComplaintBoxViewController.xib */,
+				0174977714811DD3008C1A94 /* DistrictViewController.xib */,
+				0174977C14811DF2008C1A94 /* ComplainTypeViewController.xib */,
+			);
+			name = Xibs;
+			sourceTree = "<group>";
+		};
+		017497561480CD4C008C1A94 /* MyComplains */ = {
+			isa = PBXGroup;
+			children = (
+				0174975D1480D486008C1A94 /* ComplaintBoxViewController.h */,
+				0174975E1480D486008C1A94 /* ComplaintBoxViewController.m */,
+			);
+			name = MyComplains;
+			sourceTree = "<group>";
+		};
+		017497571480CD51008C1A94 /* Complain */ = {
+			isa = PBXGroup;
+			children = (
+				017497581480CE20008C1A94 /* ComplainViewController.h */,
+				017497591480CE20008C1A94 /* ComplainViewController.m */,
+				0174977514811DD3008C1A94 /* DistrictViewController.h */,
+				0174977614811DD3008C1A94 /* DistrictViewController.m */,
+				0174977A14811DF1008C1A94 /* ComplainTypeViewController.h */,
+				0174977B14811DF2008C1A94 /* ComplainTypeViewController.m */,
+			);
+			name = Complain;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		017497181480C993008C1A94 /* HelloSarkar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 017497441480C993008C1A94 /* Build configuration list for PBXNativeTarget "HelloSarkar" */;
+			buildPhases = (
+				017497151480C993008C1A94 /* Sources */,
+				017497161480C993008C1A94 /* Frameworks */,
+				017497171480C993008C1A94 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HelloSarkar;
+			productName = HelloSarkar;
+			productReference = 017497191480C993008C1A94 /* HelloSarkar.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		017497101480C993008C1A94 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 017497131480C993008C1A94 /* Build configuration list for PBXProject "HelloSarkar" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 0174970E1480C993008C1A94;
+			productRefGroup = 0174971A1480C993008C1A94 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				017497181480C993008C1A94 /* HelloSarkar */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		017497171480C993008C1A94 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0174972A1480C993008C1A94 /* InfoPlist.strings in Resources */,
+				0174973A1480C993008C1A94 /* MainWindow_iPhone.xib in Resources */,
+				017497411480C993008C1A94 /* MainWindow_iPad.xib in Resources */,
+				0174975C1480CE20008C1A94 /* ComplainViewController.xib in Resources */,
+				017497611480D486008C1A94 /* ComplaintBoxViewController.xib in Resources */,
+				0174977914811DD3008C1A94 /* DistrictViewController.xib in Resources */,
+				0174977E14811DF2008C1A94 /* ComplainTypeViewController.xib in Resources */,
+				01D7F3EE1481C976008B3B2D /* background.jpg in Resources */,
+				46396A8914876A4900413F05 /* EditFieldCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		017497151480C993008C1A94 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0174972C1480C993008C1A94 /* main.m in Sources */,
+				017497301480C993008C1A94 /* HelloSarkarAppDelegate.m in Sources */,
+				017497331480C993008C1A94 /* HelloSarkar.xcdatamodeld in Sources */,
+				017497371480C993008C1A94 /* HelloSarkarAppDelegate_iPhone.m in Sources */,
+				0174973E1480C993008C1A94 /* HelloSarkarAppDelegate_iPad.m in Sources */,
+				0174975B1480CE20008C1A94 /* ComplainViewController.m in Sources */,
+				017497601480D486008C1A94 /* ComplaintBoxViewController.m in Sources */,
+				0174976D1480F22E008C1A94 /* XMLReader.m in Sources */,
+				0174977814811DD3008C1A94 /* DistrictViewController.m in Sources */,
+				0174977D14811DF2008C1A94 /* ComplainTypeViewController.m in Sources */,
+				01749781148126ED008C1A94 /* SharedStore.m in Sources */,
+				46396A8814876A4900413F05 /* EditFieldCell.m in Sources */,
+				464CE0E914888BDD00319974 /* Complain.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		017497281480C993008C1A94 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				017497291480C993008C1A94 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		017497381480C993008C1A94 /* MainWindow_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				017497391480C993008C1A94 /* en */,
+			);
+			name = MainWindow_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		0174973F1480C993008C1A94 /* MainWindow_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				017497401480C993008C1A94 /* en */,
+			);
+			name = MainWindow_iPad.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		017497421480C993008C1A94 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		017497431480C993008C1A94 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		017497451480C993008C1A94 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HelloSarkar/HelloSarkar-Prefix.pch";
+				INFOPLIST_FILE = "HelloSarkar/HelloSarkar-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		017497461480C993008C1A94 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HelloSarkar/HelloSarkar-Prefix.pch";
+				INFOPLIST_FILE = "HelloSarkar/HelloSarkar-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		017497131480C993008C1A94 /* Build configuration list for PBXProject "HelloSarkar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				017497421480C993008C1A94 /* Debug */,
+				017497431480C993008C1A94 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		017497441480C993008C1A94 /* Build configuration list for PBXNativeTarget "HelloSarkar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				017497451480C993008C1A94 /* Debug */,
+				017497461480C993008C1A94 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		017497311480C993008C1A94 /* HelloSarkar.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				017497321480C993008C1A94 /* HelloSarkar.xcdatamodel */,
+			);
+			currentVersion = 017497321480C993008C1A94 /* HelloSarkar.xcdatamodel */;
+			path = HelloSarkar.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 017497101480C993008C1A94 /* Project object */;
+}

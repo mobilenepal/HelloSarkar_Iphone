@@ -1,0 +1,13 @@
+.DS_Store
+HelloSarkar/build/
+build/
+
+HelloSarkar.xcodeproj/*.pbxuser
+HelloSarkar.xcodeproj/*.mode1
+HelloSarkar.xcodeproj/*.mode1v3
+HelloSarkar.xcodeproj/*.mode2v3
+
+HelloSarkar.xcodeproj/*.perspective
+HelloSarkar.xcodeproj/*.perspectivev3
+HelloSarkar.xcodeproj/*.xcworkspace
+HelloSarkar.xcodeproj/xcuserdata
